@@ -26,7 +26,6 @@ jobs:
         with:
           name: test-report
           path: .
-      
+
       - name: Print secret value
-        run: echo "Message: ${{ secrets.MY_MESSAGE}}"
-    
+        run: 'echo "Message: ${{ secrets.MY_MESSAGE }}"'
